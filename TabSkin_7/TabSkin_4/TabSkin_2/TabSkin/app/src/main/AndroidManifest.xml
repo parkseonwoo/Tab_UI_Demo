@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tabskin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mess"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".Login1"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".Skin"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Skin1"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Skin2"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Skin3"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Skin4"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".group1"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".group2"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".group3"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".group4"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".LogoActivity"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".rvgroup1"
+        android:screenOrientation="landscape"
+        android:launchMode="singleInstance"/>
+
+        <activity android:name=".rvgroup2"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".rvgroup3"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".rvgroup4"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".adgroup1"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".adgroup2"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".adgroup3"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".adgroup4"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".Skin3_group1"
+        android:screenOrientation="landscape"
+        android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin3_group2"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin3_group3"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin3_group4"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+        <activity android:name=".Skin4_group1"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin4_group2"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin4_group3"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+        <activity android:name=".Skin4_group4"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"/>
+
+
+    </application>
+
+</manifest>

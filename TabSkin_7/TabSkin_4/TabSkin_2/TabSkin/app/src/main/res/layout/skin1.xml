@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/skin1"
+    android:onClick="skin_btn">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="   CLUSTER CONTROL APP"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fontstyle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rvgroup_all"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#fef8a2"
+            android:text="ALL"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontstyle"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/rvgroup1"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/skin1_border"
+            android:text="group 1"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontstyle"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/rvgroup2"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/skin1_border"
+            android:text="group 2"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontstyle"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/rvgroup3"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/skin1_border"
+            android:text="group 3"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontstyle"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/rvgroup4"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/skin1_border"
+            android:text="group4"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontstyle"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/skin1_btns_bg">
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skin1_left_btn"
+                android:layout_gravity="center_vertical"/>
+
+            <LinearLayout
+                android:id="@+id/btns"
+                android:layout_width="490dp"
+                android:layout_height="350dp"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:id="@+id/btns1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:columnCount="6">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableTop="@drawable/skin1_group_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="ALL"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="1"/>
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableTop="@drawable/skin1_tv_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="2"/>
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableTop="@drawable/skin1_wifi_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="3"/>
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableTop="@drawable/skin1_key_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="4"/>
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableTop="@drawable/skin1_wifi_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="5"/>
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:drawableTop="@drawable/skin1_light_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="6"/>
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableTop="@drawable/skin1_tv_btn_bg"
+                        android:background="@drawable/skin1_border"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:fontFamily="@font/fontstyle"
+                        android:tag="7"/>
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/skin1_border"
+                        android:drawableTop="@drawable/skin1_light_btn_bg"
+                        android:fontFamily="@font/fontstyle"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:tag="8"/>
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/skin1_border"
+                        android:drawableTop="@drawable/skin1_tv_btn_bg"
+                        android:fontFamily="@font/fontstyle"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:tag="9"/>
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/skin1_border"
+                        android:drawableTop="@drawable/skin1_add_btn_bg"
+                        android:fontFamily="@font/fontstyle"
+                        android:text="text area"
+                        android:textSize="6dp"
+                        android:tag="10" />
+
+                </GridLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/skin1_right_btn"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/side_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/setting"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/skin1_set_btn_bg"
+                android:background="@drawable/skin1_side_menu"
+                android:text="setting"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/fontstyle"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/skin1_edit_btn_bg"
+                android:background="@drawable/skin1_side_menu"
+                android:text="edit"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/fontstyle"
+                android:textColor="#ffffff"/>
+
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/skin1_delete_btn_1_bg"
+                android:background="@drawable/skin1_side_menu"
+                android:text="delete"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/fontstyle"
+                android:textColor="#ffffff"/>
+            <Button
+                android:id="@+id/end"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/skin1_end_btn_bg"
+                android:background="@drawable/skin1_side_menu"
+                android:onClick="end"
+                android:text="end"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/mapoflowerisiand"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

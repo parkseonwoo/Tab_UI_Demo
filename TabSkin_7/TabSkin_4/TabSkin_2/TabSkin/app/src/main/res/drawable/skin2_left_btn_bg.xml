@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#a67c52" />
+            <corners
+                android:bottomLeftRadius="200dp"
+                android:bottomRightRadius="200dp"
+                android:topLeftRadius="200dp"
+                android:topRightRadius="200dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/skin2_left_btn"
+        android:top="10dp"
+        android:right="10dp"
+        android:left="10dp"
+        android:bottom="10dp"
+        ></item>
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape  android:shape="rectangle">
+            <solid android:color="#c69c6d"/>
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/skin2_btn_sub"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp"
+        android:bottom="3dp"/>
+    <item android:drawable="@drawable/skin2_home_btn"/>
+</layer-list>
